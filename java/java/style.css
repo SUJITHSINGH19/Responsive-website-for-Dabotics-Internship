@@ -1,0 +1,112 @@
+/* Reset some default styles */
+* /* Set the background color of the "About Us" page to blue */
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Set the background color of the "About Us" page to blue */
+
+
+
+/* Style the header and navigation */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff4500;
+}
+
+/* Add media queries for responsiveness */
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+}
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer-links ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer-links li {
+    margin-right: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ff4500;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
